@@ -23,7 +23,6 @@
         <button type="button" @click.stop="$emit('select', selectOption)">button</button>
       </div>
     </div>
-
   </div>
 </template>
 
