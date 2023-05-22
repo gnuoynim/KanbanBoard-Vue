@@ -4,6 +4,7 @@
       <h1>modal</h1>
       <div class="addList">
         {{ clickValue }}
+        
         {{ item }}
         <button type="button" @click.stop="$emit('closeModal')" class="closeButton">X</button>
       </div>

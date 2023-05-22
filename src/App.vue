@@ -13,6 +13,7 @@
       </ul>
     </div>
     <Modal v-if="modal" :modal="modal" :item="inputValue" :clickValue="clickValue" @closeModal="modal = false"
+    
       @select="selectOption" />
     <DoingTask />
     <DoneTask />
